@@ -1,0 +1,23 @@
+Main Classes - part 1 
+University Food Ordering & Managment System
+
+
+1.User
+Attributes: userID, name, email, password
+Methods: login(), logout(), displayInfo()
+Responsibility: Stores general user information & manages user login.
+
+2.Student
+Attributes: studentID, balance
+Methods: browseFood(), placeOrder(), viewOrders()
+Responsibility: Allows students to browse menus & order food.
+
+3.Admin
+Attributes: adminID, accessLevel
+Methods: addFoodItem(), removeFoodItem(), updateFoodItem()
+Responsibility: Manages cafeteria food items & orders.
+4.Fooditem
+Attributes: itemID, itemName, price, category, availability
+Methods: displayItem(), updatePrice(), checkAvailability()
+Responsibility: Stores & manages information about available food.
+
